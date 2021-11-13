@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "npm run test01",
-    "test01": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest __tests__/test01.spec.js"
+    "test01": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest --env=jsdom __tests__/test01.spec.js"
   },
   "author": "",
   "license": "ISC",
